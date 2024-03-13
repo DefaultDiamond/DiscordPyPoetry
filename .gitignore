@@ -17,3 +17,7 @@ misc_files
 
 # ignore doting
 .env
+
+# ignore pycache
+/cogs/__pycache__/
+/config/__pycache__/

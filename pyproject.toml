@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "discordpypoetry"
+version = "0.1.0"
+description = ""
+authors = ["DefaultDiamond <121190031+DefaultDiamond@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+discord = "^2.3.2"
+g4f = "^0.2.4.1"
+rich = "^13.7.1"
+yt-dlp = "^2024.3.10"
+pydantic-settings = "^2.2.1"
+bs4 = "^0.0.2"
+pynacl = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

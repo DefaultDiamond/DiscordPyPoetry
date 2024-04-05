@@ -2,7 +2,7 @@ import asyncio
 import os.path
 import sys
 
-from config.config import settings
+from config import settings
 
 from cogs import gpt, fun, listeners, music, misc, roll, test
 
@@ -18,6 +18,7 @@ ffmpeg_file = 'ffmpeg.tar.gz'
 
 if not os.path.isfile('ffmpeg'):
     with tarfile.open(ffmpeg_file, 'r:gz') as tar:
+        print('[b yellow]Разархивируем ffmpeg')
         tar.extractall()
 
 

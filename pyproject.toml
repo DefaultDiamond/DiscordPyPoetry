@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 discord = "^2.3.2"
-g4f = "^0.2.4.1"
+g4f = {extras = ["all"], version = "^0.2.5.3"}
 rich = "^13.7.1"
 yt-dlp = "^2024.3.10"
 pydantic-settings = "^2.2.1"

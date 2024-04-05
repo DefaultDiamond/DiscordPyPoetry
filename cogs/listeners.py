@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 from rich import print
-from config.config import settings
+from config import settings
 
 
 class OnReady(commands.Cog):

@@ -17,3 +17,15 @@ misc_files
 
 # ignore .sh file
 DiscordPy.sh
+
+# ignore dotenv
+.env
+
+# ignore pycache
+/cogs/__pycache__/
+/config/__pycache__/
+
+# ignore .DS_Store
+cogs/.DS_Store
+config/.DS_Store
+.DS_Store
